@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body{
+    background: #323975;
+
+}
+.fa-snowflake{
+color: #fff;
+position: absolute;
+top: -20px;
+animation: fall 10s linear forwards;
+}
+
+@keyframes fall {
+	to {
+		transform: translateY(105vh);
+	}
+}
+
